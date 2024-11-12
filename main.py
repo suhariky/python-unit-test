@@ -5,5 +5,5 @@ def min_of_three_vars(a, b, c):
         return b
     elif c < a and c < b:
         return c
-
+print("TEST WEBHOOK")
     

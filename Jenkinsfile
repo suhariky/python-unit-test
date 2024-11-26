@@ -20,6 +20,7 @@ pipeline{
 	    steps{
 		sh "coverage report"
 		sh "coverage html"
+		sh "coverage xml"
 	    }
 	}
     }

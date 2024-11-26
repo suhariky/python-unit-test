@@ -16,5 +16,11 @@ pipeline{
                 sh "coverage run -m nose2"
             }
         }
+	stage("reports"){
+	    steps{
+		sh "coverage report"
+		sh "coverage html"
+	    }
+	}
     }
 }
